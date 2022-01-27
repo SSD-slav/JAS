@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 933792932047171275}
   - component: {fileID: 933792932044304109}
   - component: {fileID: 933792932045270061}
-  m_Layer: 2
+  m_Layer: 3
   m_Name: M4_Magazine
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -94,7 +94,7 @@ GameObject:
   - component: {fileID: 933792932047171277}
   - component: {fileID: 933792932044304111}
   - component: {fileID: 933792932045270063}
-  m_Layer: 2
+  m_Layer: 3
   m_Name: M4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -176,7 +176,7 @@ GameObject:
   m_Component:
   - component: {fileID: 933792932047171279}
   - component: {fileID: 7082119451786611013}
-  m_Layer: 2
+  m_Layer: 3
   m_Name: M4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -242,7 +242,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &930857721149814013
 Transform:
   m_ObjectHideFlags: 0
@@ -279,7 +279,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2268810289029410255}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 92ff20e52ea5545fabe5800e1b828cf5, type: 3}
   m_Name: 
@@ -299,7 +299,8 @@ GameObject:
   - component: {fileID: 4520236063393270559}
   - component: {fileID: 665686305493371289}
   - component: {fileID: 4516484206623290952}
-  m_Layer: 2
+  - component: {fileID: 4517532492536175020}
+  m_Layer: 3
   m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -335,7 +336,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 601d4686cc0b70d45a98271d52094850, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxVectorLenth: 0
   colliderSize: {x: 1, y: 2, z: 1}
   weight: 75
   rigidbodyPushForce: 2
@@ -343,7 +343,7 @@ MonoBehaviour:
   viewTransform: {fileID: 3103409060764160568}
   playerRotationTransform: {fileID: 3103409060248579072}
   crouchingHeightMultiplier: 0.5
-  crouchingSpeed: 100
+  crouchingSpeed: 10
   crouchingEnabled: 1
   slidingEnabled: 1
   laddersEnabled: 0
@@ -355,8 +355,8 @@ MonoBehaviour:
     gravity: 20
     jumpForce: 6.5
     friction: 6
-    maxSpeed: 1000
-    maxVelocity: 1000
+    maxSpeed: 100
+    maxVelocity: 100
     slopeLimit: 75
     clampAirSpeed: 0
     airCap: 0.4
@@ -489,6 +489,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   WeaponsPerent: {fileID: 4870275433631931662}
+  Mask:
+    serializedVersion: 2
+    m_Bits: 1
 --- !u!114 &4516484206623290952
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -504,6 +507,18 @@ MonoBehaviour:
   InputField: {fileID: 0}
   Content: {fileID: 0}
   messagePrefab: {fileID: 1625671244587283153, guid: 29857ab8b71dcccaa9fda42e1cb454ca, type: 3}
+--- !u!114 &4517532492536175020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3103409060248579074}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92ff20e52ea5545fabe5800e1b828cf5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3103409060645840671
 GameObject:
   m_ObjectHideFlags: 0
@@ -515,7 +530,7 @@ GameObject:
   - component: {fileID: 3103409060645840668}
   - component: {fileID: 3103409060645840666}
   - component: {fileID: 3103409060645840669}
-  m_Layer: 2
+  m_Layer: 3
   m_Name: Camera
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -599,7 +614,7 @@ GameObject:
   - component: {fileID: 3103409060764160568}
   - component: {fileID: 3103409060764160569}
   - component: {fileID: 7679086130772317285}
-  m_Layer: 2
+  m_Layer: 3
   m_Name: Camera holder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -681,7 +696,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3476765744778634308}
-  m_Layer: 2
+  m_Layer: 3
   m_Name: Weapons
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -713,7 +728,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1368023664455748722}
-  m_Layer: 2
+  m_Layer: 3
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
