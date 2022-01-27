@@ -41,7 +41,7 @@ public class Bullet : NetworkBehaviour
 			collision.gameObject.GetComponent<Health>().AddHp(0f - Dammage);
 		}
 
-		Expl(collision.collider.ClosestPoint(transform.position), EXPLRadius, EXPLPower);
+		//Expl(collision.collider.ClosestPoint(transform.position), EXPLRadius, EXPLPower);
 		ExplClientRpc(collision.collider.ClosestPoint(transform.position), EXPLRadius, EXPLPower);
 		Destroy(gameObject);
 	}
