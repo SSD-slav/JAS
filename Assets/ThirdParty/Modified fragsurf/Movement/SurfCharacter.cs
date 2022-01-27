@@ -13,8 +13,6 @@ public class SurfCharacter : NetworkBehaviour, ISurfControllable
 		Box
 	}
 
-	public float maxVectorLenth;
-
 	private float hor;
 
 	private float ver;

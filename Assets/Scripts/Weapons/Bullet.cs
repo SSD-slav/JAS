@@ -22,6 +22,7 @@ public class Bullet : NetworkBehaviour
 	{
 		if (IsServer)
 		{
+			NetworkObject.Despawn();
 			Destroy(gameObject);
 		}
 	}
@@ -66,8 +67,8 @@ public class Bullet : NetworkBehaviour
 				collider.transform.parent.gameObject.TryGetComponent<SurfCharacter>(out component);
 				if (component != null)
 				{
-					component.moveData.velocity += (collider.transform.position - collider.ClosestPoint(transform.position)) * 1f / Vector3.Distance(collider.transform.position, transform.position) * Power;
-					collider.gameObject.GetComponent<Health>().AddHp(0f - 1f / Vector3.Distance(collider.transform.position, transform.position) * Power);
+					component.moveData.velocity += (collider.transform.position - collider.ClosestPoint(transform.position)) * Mathf.Max(1f / Vector3.Distance(collider.transform.position, transform.position) * Power, Power * Radius);
+					component.gameObject.GetComponent<Health>().AddHp( - 1f / Vector3.Distance(collider.transform.position, transform.position) * Power);
 				}
 			}
 		}

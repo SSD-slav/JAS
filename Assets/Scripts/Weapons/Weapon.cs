@@ -42,7 +42,7 @@ public class Weapon : NetworkBehaviour
 		CanShoot = false;
 		StartCoroutine(delay(Delay));
 		ammo.Value--;
-		NetworkObject networkObject = Object.Instantiate(bullet);
+		NetworkObject networkObject = Instantiate(bullet);
 		networkObject.transform.position = position;
 		if (IsDir)
 		{
@@ -64,11 +64,6 @@ public class Weapon : NetworkBehaviour
 	[ClientRpc]
 	private void MoveClientRpc(ulong go, Vector3 vel)
 	{
-		NetworkManager networkManager = base.NetworkManager;
-		if ((object)networkManager == null || !networkManager.IsListening)
-		{
-			return;
-		} 
 		NetworkManager.ConnectedClients[go].PlayerObject.GetComponentInParent<SurfCharacter>().moveData.velocity += vel;
 	}
 

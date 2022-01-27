@@ -54,10 +54,8 @@ public class PortOpener : MonoBehaviour
 	{
 		if (device == null)
 		{
-			print("Start");
 			device = args.Device;
 			UpnpWorks = device.GetExternalIP().ToString() == new WebClient().DownloadString("http://icanhazip.com");
-			print("End");
 		}
 	}
 }

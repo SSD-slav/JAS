@@ -22,7 +22,7 @@ public class PrintSpeed : MonoBehaviour
         }
         else
         {
-            text.text = "Speed: " + Character.baseVelocity.magnitude + "\n" + Character.baseVelocity; 
+            text.text = "Speed: " + new Vector3(Character.baseVelocity.x, 0, Character.baseVelocity.z).magnitude + "\n" + Character.baseVelocity; 
         }
     }
 }
