@@ -219,7 +219,7 @@ MonoBehaviour:
   MaxAmmo: 100
   Damage: 10
   EXPLRadius: 5
-  EXPLPower: 10
+  EXPLPower: 1
   ReloadTime: 0.1
   Delay: 0.05
   recoil: 0

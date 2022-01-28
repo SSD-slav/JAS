@@ -41,7 +41,7 @@ public class Bullet : NetworkBehaviour
 			collision.gameObject.GetComponent<Health>().AddHp(0f - Dammage);
 		}
 
-		Expl(collision.collider.ClosestPoint(transform.position), EXPLRadius, EXPLPower);
+		//Expl(collision.collider.ClosestPoint(transform.position), EXPLRadius, EXPLPower);
 		ExplClientRpc(collision.collider.ClosestPoint(transform.position), EXPLRadius, EXPLPower);
 		Destroy(gameObject);
 	}
@@ -54,21 +54,19 @@ public class Bullet : NetworkBehaviour
 	
 	private void Expl(Vector3 pos, float Radius, float Power)
 	{
-		if (Radius == 0f)
-		{
-			return;
-		}
+		if (Radius == 0f) return;
+		
 		Collider[] array = Physics.OverlapSphere(pos, Radius);
 		foreach (Collider collider in array)
 		{
 			if (collider.gameObject.layer == LayerMask.NameToLayer("Player"))
 			{
 				SurfCharacter component = null;
-				collider.transform.parent.gameObject.TryGetComponent<SurfCharacter>(out component);
+				collider.transform.parent.gameObject.TryGetComponent(out component);
 				if (component != null)
 				{
-					component.moveData.velocity += (collider.transform.position - collider.ClosestPoint(transform.position)) * Mathf.Max(1f / Vector3.Distance(collider.transform.position, transform.position) * Power, Power * Radius);
-					component.gameObject.GetComponent<Health>().AddHp( - 1f / Vector3.Distance(collider.transform.position, transform.position) * Power);
+					component.moveData.velocity += (collider.transform.position - collider.ClosestPoint(transform.position)) * Mathf.Max(1f / Vector3.Distance(collider.transform.position, transform.position), Radius) * Power;
+					component.gameObject.GetComponent<Health>().AddHp( - 1f / Vector3.Distance(collider.transform.position, transform.position * Power));
 				}
 			}
 		}

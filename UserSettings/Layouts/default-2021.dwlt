@@ -17,11 +17,11 @@ MonoBehaviour:
     x: 0
     y: 41
     width: 1920
-    height: 962
+    height: 960
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Game
   m_RootView: {fileID: 7}
-  m_MinSize: {x: 875, y: 371}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 0
 --- !u!114 &2
@@ -41,13 +41,13 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 200
-    height: 912
+    width: 100
+    height: 910
   m_MinSize: {x: 101, y: 121}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 19}
+  m_ActualView: {fileID: 18}
   m_Panes:
-  - {fileID: 19}
+  - {fileID: 18}
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &3
@@ -65,15 +65,15 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1626
+    x: 1720
     y: 0
-    width: 294
-    height: 912
+    width: 200
+    height: 910
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 16}
+  m_ActualView: {fileID: 15}
   m_Panes:
-  - {fileID: 16}
+  - {fileID: 15}
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &4
@@ -98,11 +98,11 @@ MonoBehaviour:
     x: 0
     y: 30
     width: 1920
-    height: 912
+    height: 910
   m_MinSize: {x: 400, y: 200}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 104
+  controlID: 783
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -118,15 +118,15 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1074
+    x: 1328
     y: 0
-    width: 552
-    height: 912
+    width: 392
+    height: 910
   m_MinSize: {x: 277, y: 71}
   m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 15}
+  m_ActualView: {fileID: 14}
   m_Panes:
-  - {fileID: 15}
+  - {fileID: 14}
   - {fileID: 12}
   m_Selected: 0
   m_LastSelected: 1
@@ -146,14 +146,14 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 548
-    width: 874
-    height: 364
+    y: 573
+    width: 1228
+    height: 337
   m_MinSize: {x: 232, y: 271}
   m_MaxSize: {x: 10002, y: 10021}
-  m_ActualView: {fileID: 14}
+  m_ActualView: {fileID: 13}
   m_Panes:
-  - {fileID: 14}
+  - {fileID: 13}
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &7
@@ -177,7 +177,7 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 1920
-    height: 962
+    height: 960
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
@@ -222,7 +222,7 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 942
+    y: 940
     width: 1920
     height: 20
   m_MinSize: {x: 0, y: 0}
@@ -244,14 +244,14 @@ MonoBehaviour:
   - {fileID: 6}
   m_Position:
     serializedVersion: 2
-    x: 200
+    x: 100
     y: 0
-    width: 874
-    height: 912
+    width: 1228
+    height: 910
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 26
+  controlID: 712
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -262,24 +262,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: SceneView
+  m_Name: GameView
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 874
-    height: 548
+    width: 1228
+    height: 573
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 17}
   m_Panes:
+  - {fileID: 16}
   - {fileID: 17}
-  - {fileID: 18}
-  - {fileID: 13}
-  m_Selected: 0
-  m_LastSelected: 2
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -300,10 +299,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1074
-    y: 98
-    width: 550
-    height: 891
+    x: 1328
+    y: 100
+    width: 390
+    height: 889
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -313,7 +312,7 @@ MonoBehaviour:
   timeSinceLastRotation: -1
   currentBranchAndRemoteHasUpdate: 0
   currentTrackingStatusHasUpdate: 0
-  currentStatusEntriesHasUpdate: 1
+  currentStatusEntriesHasUpdate: 0
   repositoryProgressHasUpdate: 1
   appManagerProgressHasUpdate: 1
   changeTab: 3
@@ -328,19 +327,8 @@ MonoBehaviour:
     treeLocals:
       IsRemote: 0
       folders:
-        keys:
-        - Local branches
-        values:
-        - path: Local branches
-          label: Local branches
-          level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 0
-          checkState: 0
+        keys: []
+        values: []
       checkedFileNodes:
         keys: []
         values: []
@@ -349,27 +337,7 @@ MonoBehaviour:
       displayRootNode: 1
       isSelectable: 1
       isCheckable: 0
-      nodes:
-      - path: Local branches
-        label: Local branches
-        level: 0
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-      - path: master
-        label: master
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 1
-        treeIsCheckable: 0
-        checkState: 0
+      nodes: []
       selectedNode:
         path: 
         label: 
@@ -384,30 +352,8 @@ MonoBehaviour:
     treeRemotes:
       IsRemote: 1
       folders:
-        keys:
-        - Remote branches
-        - origin
-        values:
-        - path: Remote branches
-          label: Remote branches
-          level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 0
-          checkState: 0
-        - path: origin
-          label: origin
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 0
-          checkState: 0
+        keys: []
+        values: []
       checkedFileNodes:
         keys: []
         values: []
@@ -416,52 +362,12 @@ MonoBehaviour:
       displayRootNode: 1
       isSelectable: 1
       isCheckable: 0
-      nodes:
-      - path: Remote branches
-        label: Remote branches
-        level: 0
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-      - path: origin
-        label: origin
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-      - path: origin/main
-        label: main
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-      - path: origin/master
-        label: master
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
+      nodes: []
       selectedNode:
-        path: origin
-        label: origin
-        level: 1
-        isFolder: 1
+        path: 
+        label: 
+        level: 0
+        isFolder: 0
         isContainer: 0
         isCollapsed: 0
         isHidden: 0
@@ -471,35 +377,29 @@ MonoBehaviour:
     mode: 0
     newBranchName: 
     scroll: {x: 0, y: 0}
-    disableDelete: 1
-    disableCreate: 1
+    disableDelete: 0
+    disableCreate: 0
     lastLocalAndRemoteBranchListChangedEvent:
-      updatedTimeString: 2021-12-20T20:29:37.664+02:00
-      cacheType: 2
+      updatedTimeString: 
+      cacheType: 0
     lastCurrentBranchAndRemoteChange:
-      updatedTimeString: 2021-12-20T20:28:32.727+02:00
-      cacheType: 1
+      updatedTimeString: 
+      cacheType: 0
     currentBranch:
-      name: master
-      tracking: origin/master
+      name: 
+      tracking: 
     currentRemote:
-      name: origin
-      url: git@github.com:SSD-slav/JAS.git
+      name: 
+      url: 
       login: 
       user: 
       host: 
       function: 0
       token: 
-    localBranches:
-    - name: master
-      tracking: origin/master
-    remoteBranches:
-    - name: origin/main
-      tracking: '[None]'
-    - name: origin/master
-      tracking: '[None]'
+    localBranches: []
+    remoteBranches: []
   changesView:
-    currentBranchHasUpdate: 1
+    currentBranchHasUpdate: 0
     currentStatusEntriesHasUpdate: 1
     currentLocksHasUpdate: 0
     commitBody: 
@@ -508,13 +408,279 @@ MonoBehaviour:
     treeScroll: {x: 0, y: 0}
     treeChanges:
       assets:
-        keys: []
-        values: []
+        keys:
+        - 00000000000000001000000000000000
+        - 03ad7dc3ff59c1f8dbbfa46b45463013
+        - cda5ab2c6af38f032a445cbccaf1aa55
+        - fa9681a637020769abaaca16c62f8fcc
+        - 8fa3acfcfd275fecf8339085c0670677
+        - 7ec08ba25753934a798d33fdabf30a46
+        - f7b3c2b33dc45f196a91ae68119cebc4
+        - 0000000000000000e100000000000000
+        values:
+        - path: Assets
+          label: Assets
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets/Prefabs
+          label: Prefabs
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets/Prefabs/Player.prefab
+          label: Player.prefab
+          level: 2
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets/Prefabs/Player.prefab
+            fullPath: /home/sergey/unity/projects/JustAnotherShooter/Assets/Prefabs/Player.prefab
+            projectPath: Assets/Prefabs/Player.prefab
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 3
+        - path: Assets/Scene.unity
+          label: Scene.unity
+          level: 1
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets/Scene.unity
+            fullPath: /home/sergey/unity/projects/JustAnotherShooter/Assets/Scene.unity
+            projectPath: Assets/Scene.unity
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 3
+        - path: Assets/Scripts
+          label: Scripts
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets/Scripts/Weapons
+          label: Weapons
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets/Scripts/Weapons/Bullet.cs
+          label: Bullet.cs
+          level: 3
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets/Scripts/Weapons/Bullet.cs
+            fullPath: /home/sergey/unity/projects/JustAnotherShooter/Assets/Scripts/Weapons/Bullet.cs
+            projectPath: Assets/Scripts/Weapons/Bullet.cs
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 3
+        - path: ProjectSettings/ProjectVersion.txt
+          label: ProjectVersion.txt
+          level: 1
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: ProjectSettings/ProjectVersion.txt
+            fullPath: /home/sergey/unity/projects/JustAnotherShooter/ProjectSettings/ProjectVersion.txt
+            projectPath: ProjectSettings/ProjectVersion.txt
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 3
       folders:
         keys:
+        - Assets
+        - Assets/Prefabs
+        - Assets/Scripts
+        - Assets/Scripts/Weapons
+        - Packages
+        - ProjectSettings
         - UserSettings
         - UserSettings/Layouts
         values:
+        - path: Assets
+          label: Assets
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets/Prefabs
+          label: Prefabs
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets/Scripts
+          label: Scripts
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets/Scripts/Weapons
+          label: Weapons
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Packages
+          label: Packages
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: ProjectSettings
+          label: ProjectSettings
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
         - path: UserSettings
           label: UserSettings
           level: 0
@@ -524,7 +690,7 @@ MonoBehaviour:
           isHidden: 0
           isActive: 0
           treeIsCheckable: 1
-          checkState: 0
+          checkState: 1
           isLocked: 0
           gitStatusEntry:
             path: 
@@ -542,7 +708,7 @@ MonoBehaviour:
           isHidden: 0
           isActive: 0
           treeIsCheckable: 1
-          checkState: 0
+          checkState: 1
           isLocked: 0
           gitStatusEntry:
             path: 
@@ -552,8 +718,122 @@ MonoBehaviour:
             indexStatus: 0
             workTreeStatus: 0
       checkedFileNodes:
-        keys: []
-        values: []
+        keys:
+        - Assets/Scripts/Weapons/Bullet.cs
+        - Assets/Scene.unity
+        - Assets/Prefabs/Player.prefab
+        - Packages/packages-lock.json
+        - ProjectSettings/ProjectVersion.txt
+        - UserSettings/Layouts/default-2021.dwlt
+        values:
+        - path: Assets/Scripts/Weapons/Bullet.cs
+          label: Bullet.cs
+          level: 3
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets/Scripts/Weapons/Bullet.cs
+            fullPath: /home/sergey/unity/projects/JustAnotherShooter/Assets/Scripts/Weapons/Bullet.cs
+            projectPath: Assets/Scripts/Weapons/Bullet.cs
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 3
+        - path: Assets/Scene.unity
+          label: Scene.unity
+          level: 1
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets/Scene.unity
+            fullPath: /home/sergey/unity/projects/JustAnotherShooter/Assets/Scene.unity
+            projectPath: Assets/Scene.unity
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 3
+        - path: Assets/Prefabs/Player.prefab
+          label: Player.prefab
+          level: 2
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets/Prefabs/Player.prefab
+            fullPath: /home/sergey/unity/projects/JustAnotherShooter/Assets/Prefabs/Player.prefab
+            projectPath: Assets/Prefabs/Player.prefab
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 3
+        - path: Packages/packages-lock.json
+          label: packages-lock.json
+          level: 1
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: Packages/packages-lock.json
+            fullPath: /home/sergey/unity/projects/JustAnotherShooter/Packages/packages-lock.json
+            projectPath: Packages/packages-lock.json
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 3
+        - path: ProjectSettings/ProjectVersion.txt
+          label: ProjectVersion.txt
+          level: 1
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: ProjectSettings/ProjectVersion.txt
+            fullPath: /home/sergey/unity/projects/JustAnotherShooter/ProjectSettings/ProjectVersion.txt
+            projectPath: ProjectSettings/ProjectVersion.txt
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 3
+        - path: UserSettings/Layouts/default-2021.dwlt
+          label: default-2021.dwlt
+          level: 2
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: UserSettings/Layouts/default-2021.dwlt
+            fullPath: /home/sergey/unity/projects/JustAnotherShooter/UserSettings/Layouts/default-2021.dwlt
+            projectPath: UserSettings/Layouts/default-2021.dwlt
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 3
       title: 
       pathSeparator: /
       displayRootNode: 0
@@ -570,7 +850,7 @@ MonoBehaviour:
         isHidden: 0
         isActive: 0
         treeIsCheckable: 1
-        checkState: 0
+        checkState: 1
         isLocked: 0
         gitStatusEntry:
           path: 
@@ -579,6 +859,204 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
+      - path: Assets
+        label: Assets
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets/Prefabs
+        label: Prefabs
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets/Prefabs/Player.prefab
+        label: Player.prefab
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets/Prefabs/Player.prefab
+          fullPath: /home/sergey/unity/projects/JustAnotherShooter/Assets/Prefabs/Player.prefab
+          projectPath: Assets/Prefabs/Player.prefab
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
+      - path: Assets/Scene.unity
+        label: Scene.unity
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets/Scene.unity
+          fullPath: /home/sergey/unity/projects/JustAnotherShooter/Assets/Scene.unity
+          projectPath: Assets/Scene.unity
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
+      - path: Assets/Scripts
+        label: Scripts
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets/Scripts/Weapons
+        label: Weapons
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets/Scripts/Weapons/Bullet.cs
+        label: Bullet.cs
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets/Scripts/Weapons/Bullet.cs
+          fullPath: /home/sergey/unity/projects/JustAnotherShooter/Assets/Scripts/Weapons/Bullet.cs
+          projectPath: Assets/Scripts/Weapons/Bullet.cs
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
+      - path: Packages
+        label: Packages
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Packages/packages-lock.json
+        label: packages-lock.json
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Packages/packages-lock.json
+          fullPath: /home/sergey/unity/projects/JustAnotherShooter/Packages/packages-lock.json
+          projectPath: Packages/packages-lock.json
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
+      - path: ProjectSettings
+        label: ProjectSettings
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: ProjectSettings/ProjectVersion.txt
+        label: ProjectVersion.txt
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings/ProjectVersion.txt
+          fullPath: /home/sergey/unity/projects/JustAnotherShooter/ProjectSettings/ProjectVersion.txt
+          projectPath: ProjectSettings/ProjectVersion.txt
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
       - path: UserSettings
         label: UserSettings
         level: 0
@@ -588,7 +1066,7 @@ MonoBehaviour:
         isHidden: 0
         isActive: 0
         treeIsCheckable: 1
-        checkState: 0
+        checkState: 1
         isLocked: 0
         gitStatusEntry:
           path: 
@@ -606,7 +1084,7 @@ MonoBehaviour:
         isHidden: 0
         isActive: 0
         treeIsCheckable: 1
-        checkState: 0
+        checkState: 1
         isLocked: 0
         gitStatusEntry:
           path: 
@@ -624,7 +1102,7 @@ MonoBehaviour:
         isHidden: 0
         isActive: 0
         treeIsCheckable: 1
-        checkState: 0
+        checkState: 1
         isLocked: 0
         gitStatusEntry:
           path: UserSettings/Layouts/default-2021.dwlt
@@ -653,18 +1131,48 @@ MonoBehaviour:
           indexStatus: 0
           workTreeStatus: 0
     gitStatusEntries:
+    - path: Assets/Prefabs/Player.prefab
+      fullPath: /home/sergey/unity/projects/JustAnotherShooter/Assets/Prefabs/Player.prefab
+      projectPath: Assets/Prefabs/Player.prefab
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: Assets/Scene.unity
+      fullPath: /home/sergey/unity/projects/JustAnotherShooter/Assets/Scene.unity
+      projectPath: Assets/Scene.unity
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: Assets/Scripts/Weapons/Bullet.cs
+      fullPath: /home/sergey/unity/projects/JustAnotherShooter/Assets/Scripts/Weapons/Bullet.cs
+      projectPath: Assets/Scripts/Weapons/Bullet.cs
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: Packages/packages-lock.json
+      fullPath: /home/sergey/unity/projects/JustAnotherShooter/Packages/packages-lock.json
+      projectPath: Packages/packages-lock.json
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: ProjectSettings/ProjectVersion.txt
+      fullPath: /home/sergey/unity/projects/JustAnotherShooter/ProjectSettings/ProjectVersion.txt
+      projectPath: ProjectSettings/ProjectVersion.txt
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
     - path: UserSettings/Layouts/default-2021.dwlt
       fullPath: /home/sergey/unity/projects/JustAnotherShooter/UserSettings/Layouts/default-2021.dwlt
       projectPath: UserSettings/Layouts/default-2021.dwlt
       originalPath: 
       indexStatus: 0
       workTreeStatus: 3
-    changedFilesText: 1 changed file
+    changedFilesText: 6 changed files
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 2022-01-09T15:57:48.224+02:00
+      updatedTimeString: 2022-01-28T16:36:52.031+02:00
       cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2022-01-09T15:58:29.270+02:00
+      updatedTimeString: 2022-01-28T17:28:41.926+02:00
       cacheType: 6
     lastLocksChangedEvent:
       updatedTimeString: 0001-01-01T00:00:00.000+00:00
@@ -673,6 +1181,151 @@ MonoBehaviour:
     currentLogHasUpdate: 0
     currentTrackingStatusHasUpdate: 0
     logEntries:
+    - commitID: c40f0887def8b9a0545721ff01fc30fde1835c81
+      mergeA: 
+      mergeB: 
+      authorName: SSD-slav
+      authorEmail: disk.that.makes.games@gmail.com
+      commitEmail: disk.that.makes.games@gmail.com
+      commitName: SSD-slav
+      summary: maybe fuxed a bug
+      description: 
+      timeString: 2022-01-27T19:24:31.000+02:00
+      commitTimeString: 2022-01-27T19:24:31.000+02:00
+      changes:
+      - path: Assets/Scripts/Weapons/Bullet.cs
+        fullPath: /home/sergey/unity/projects/JustAnotherShooter/Assets/Scripts/Weapons/Bullet.cs
+        projectPath: Assets/Scripts/Weapons/Bullet.cs
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: UserSettings/Layouts/default-2021.dwlt
+        fullPath: /home/sergey/unity/projects/JustAnotherShooter/UserSettings/Layouts/default-2021.dwlt
+        projectPath: UserSettings/Layouts/default-2021.dwlt
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+    - commitID: aff79b4052a4bad1019ae163cd3c4b76e001e4d2
+      mergeA: 
+      mergeB: 
+      authorName: SSD-slav
+      authorEmail: disk.that.makes.games@gmail.com
+      commitEmail: disk.that.makes.games@gmail.com
+      commitName: SSD-slav
+      summary: Tryed to fix bug
+      description: 
+      timeString: 2022-01-27T19:15:10.000+02:00
+      commitTimeString: 2022-01-27T19:15:10.000+02:00
+      changes:
+      - path: Assets/Matirials/255-255-0.mat
+        fullPath: /home/sergey/unity/projects/JustAnotherShooter/Assets/Matirials/255-255-0.mat
+        projectPath: Assets/Matirials/255-255-0.mat
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Matirials/255-255-0.mat.meta
+        fullPath: /home/sergey/unity/projects/JustAnotherShooter/Assets/Matirials/255-255-0.mat.meta
+        projectPath: Assets/Matirials/255-255-0.mat.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Matirials/Flour.mat
+        fullPath: /home/sergey/unity/projects/JustAnotherShooter/Assets/Matirials/Flour.mat
+        projectPath: Assets/Matirials/Flour.mat
+        originalPath: Assets/Matirials/Material.mat
+        indexStatus: 6
+        workTreeStatus: 0
+      - path: Assets/Matirials/Flour.mat.meta
+        fullPath: /home/sergey/unity/projects/JustAnotherShooter/Assets/Matirials/Flour.mat.meta
+        projectPath: Assets/Matirials/Flour.mat.meta
+        originalPath: Assets/Matirials/Material.mat.meta
+        indexStatus: 6
+        workTreeStatus: 0
+      - path: Assets/Prefabs/Bullet.prefab
+        fullPath: /home/sergey/unity/projects/JustAnotherShooter/Assets/Prefabs/Bullet.prefab
+        projectPath: Assets/Prefabs/Bullet.prefab
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets/Prefabs/Player.prefab
+        fullPath: /home/sergey/unity/projects/JustAnotherShooter/Assets/Prefabs/Player.prefab
+        projectPath: Assets/Prefabs/Player.prefab
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets/Prefabs/Sphere.prefab
+        fullPath: /home/sergey/unity/projects/JustAnotherShooter/Assets/Prefabs/Sphere.prefab
+        projectPath: Assets/Prefabs/Sphere.prefab
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets/PrintSpeed.cs
+        fullPath: /home/sergey/unity/projects/JustAnotherShooter/Assets/PrintSpeed.cs
+        projectPath: Assets/PrintSpeed.cs
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets/Scripts/PortOpener.cs
+        fullPath: /home/sergey/unity/projects/JustAnotherShooter/Assets/Scripts/PortOpener.cs
+        projectPath: Assets/Scripts/PortOpener.cs
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets/Scripts/Weapons/Bullet.cs
+        fullPath: /home/sergey/unity/projects/JustAnotherShooter/Assets/Scripts/Weapons/Bullet.cs
+        projectPath: Assets/Scripts/Weapons/Bullet.cs
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets/Scripts/Weapons/Weapon.cs
+        fullPath: /home/sergey/unity/projects/JustAnotherShooter/Assets/Scripts/Weapons/Weapon.cs
+        projectPath: Assets/Scripts/Weapons/Weapon.cs
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets/Scripts/Weapons/WeaponSwitch.cs
+        fullPath: /home/sergey/unity/projects/JustAnotherShooter/Assets/Scripts/Weapons/WeaponSwitch.cs
+        projectPath: Assets/Scripts/Weapons/WeaponSwitch.cs
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets/ThirdParty/Modified fragsurf/Movement/SurfCharacter.cs
+        fullPath: /home/sergey/unity/projects/JustAnotherShooter/Assets/ThirdParty/Modified
+          fragsurf/Movement/SurfCharacter.cs
+        projectPath: Assets/ThirdParty/Modified fragsurf/Movement/SurfCharacter.cs
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Packages/manifest.json
+        fullPath: /home/sergey/unity/projects/JustAnotherShooter/Packages/manifest.json
+        projectPath: Packages/manifest.json
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Packages/packages-lock.json
+        fullPath: /home/sergey/unity/projects/JustAnotherShooter/Packages/packages-lock.json
+        projectPath: Packages/packages-lock.json
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: ProjectSettings/DynamicsManager.asset
+        fullPath: /home/sergey/unity/projects/JustAnotherShooter/ProjectSettings/DynamicsManager.asset
+        projectPath: ProjectSettings/DynamicsManager.asset
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: ProjectSettings/ProjectVersion.txt
+        fullPath: /home/sergey/unity/projects/JustAnotherShooter/ProjectSettings/ProjectVersion.txt
+        projectPath: ProjectSettings/ProjectVersion.txt
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: UserSettings/Layouts/default-2021.dwlt
+        fullPath: /home/sergey/unity/projects/JustAnotherShooter/UserSettings/Layouts/default-2021.dwlt
+        projectPath: UserSettings/Layouts/default-2021.dwlt
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
     - commitID: ca6e86c425ff4d28686b5512e37e582755acd7a5
       mergeA: 
       mergeB: 
@@ -4257,14 +4910,159 @@ MonoBehaviour:
         workTreeStatus: 0
     statusAhead: 0
     lastLogChangedEvent:
-      updatedTimeString: 2021-12-20T20:30:55.968+02:00
+      updatedTimeString: 2022-01-28T16:57:27.253+02:00
       cacheType: 3
     lastTrackingStatusChangedEvent:
-      updatedTimeString: 2021-12-20T20:30:55.819+02:00
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
       cacheType: 5
     historyControl:
       scroll: {x: 0, y: 0}
       entries:
+      - commitID: c40f0887def8b9a0545721ff01fc30fde1835c81
+        mergeA: 
+        mergeB: 
+        authorName: SSD-slav
+        authorEmail: disk.that.makes.games@gmail.com
+        commitEmail: disk.that.makes.games@gmail.com
+        commitName: SSD-slav
+        summary: maybe fuxed a bug
+        description: 
+        timeString: 2022-01-27T19:24:31.000+02:00
+        commitTimeString: 2022-01-27T19:24:31.000+02:00
+        changes:
+        - path: Assets/Scripts/Weapons/Bullet.cs
+          fullPath: /home/sergey/unity/projects/JustAnotherShooter/Assets/Scripts/Weapons/Bullet.cs
+          projectPath: Assets/Scripts/Weapons/Bullet.cs
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: UserSettings/Layouts/default-2021.dwlt
+          fullPath: /home/sergey/unity/projects/JustAnotherShooter/UserSettings/Layouts/default-2021.dwlt
+          projectPath: UserSettings/Layouts/default-2021.dwlt
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+      - commitID: aff79b4052a4bad1019ae163cd3c4b76e001e4d2
+        mergeA: 
+        mergeB: 
+        authorName: SSD-slav
+        authorEmail: disk.that.makes.games@gmail.com
+        commitEmail: disk.that.makes.games@gmail.com
+        commitName: SSD-slav
+        summary: Tryed to fix bug
+        description: 
+        timeString: 2022-01-27T19:15:10.000+02:00
+        commitTimeString: 2022-01-27T19:15:10.000+02:00
+        changes:
+        - path: Assets/Matirials/255-255-0.mat
+          fullPath: /home/sergey/unity/projects/JustAnotherShooter/Assets/Matirials/255-255-0.mat
+          projectPath: Assets/Matirials/255-255-0.mat
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Matirials/255-255-0.mat.meta
+          fullPath: /home/sergey/unity/projects/JustAnotherShooter/Assets/Matirials/255-255-0.mat.meta
+          projectPath: Assets/Matirials/255-255-0.mat.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Matirials/Flour.mat
+          fullPath: /home/sergey/unity/projects/JustAnotherShooter/Assets/Matirials/Flour.mat
+          projectPath: Assets/Matirials/Flour.mat
+          originalPath: Assets/Matirials/Material.mat
+          indexStatus: 6
+          workTreeStatus: 0
+        - path: Assets/Matirials/Flour.mat.meta
+          fullPath: /home/sergey/unity/projects/JustAnotherShooter/Assets/Matirials/Flour.mat.meta
+          projectPath: Assets/Matirials/Flour.mat.meta
+          originalPath: Assets/Matirials/Material.mat.meta
+          indexStatus: 6
+          workTreeStatus: 0
+        - path: Assets/Prefabs/Bullet.prefab
+          fullPath: /home/sergey/unity/projects/JustAnotherShooter/Assets/Prefabs/Bullet.prefab
+          projectPath: Assets/Prefabs/Bullet.prefab
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets/Prefabs/Player.prefab
+          fullPath: /home/sergey/unity/projects/JustAnotherShooter/Assets/Prefabs/Player.prefab
+          projectPath: Assets/Prefabs/Player.prefab
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets/Prefabs/Sphere.prefab
+          fullPath: /home/sergey/unity/projects/JustAnotherShooter/Assets/Prefabs/Sphere.prefab
+          projectPath: Assets/Prefabs/Sphere.prefab
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets/PrintSpeed.cs
+          fullPath: /home/sergey/unity/projects/JustAnotherShooter/Assets/PrintSpeed.cs
+          projectPath: Assets/PrintSpeed.cs
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets/Scripts/PortOpener.cs
+          fullPath: /home/sergey/unity/projects/JustAnotherShooter/Assets/Scripts/PortOpener.cs
+          projectPath: Assets/Scripts/PortOpener.cs
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets/Scripts/Weapons/Bullet.cs
+          fullPath: /home/sergey/unity/projects/JustAnotherShooter/Assets/Scripts/Weapons/Bullet.cs
+          projectPath: Assets/Scripts/Weapons/Bullet.cs
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets/Scripts/Weapons/Weapon.cs
+          fullPath: /home/sergey/unity/projects/JustAnotherShooter/Assets/Scripts/Weapons/Weapon.cs
+          projectPath: Assets/Scripts/Weapons/Weapon.cs
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets/Scripts/Weapons/WeaponSwitch.cs
+          fullPath: /home/sergey/unity/projects/JustAnotherShooter/Assets/Scripts/Weapons/WeaponSwitch.cs
+          projectPath: Assets/Scripts/Weapons/WeaponSwitch.cs
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets/ThirdParty/Modified fragsurf/Movement/SurfCharacter.cs
+          fullPath: /home/sergey/unity/projects/JustAnotherShooter/Assets/ThirdParty/Modified
+            fragsurf/Movement/SurfCharacter.cs
+          projectPath: Assets/ThirdParty/Modified fragsurf/Movement/SurfCharacter.cs
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Packages/manifest.json
+          fullPath: /home/sergey/unity/projects/JustAnotherShooter/Packages/manifest.json
+          projectPath: Packages/manifest.json
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Packages/packages-lock.json
+          fullPath: /home/sergey/unity/projects/JustAnotherShooter/Packages/packages-lock.json
+          projectPath: Packages/packages-lock.json
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: ProjectSettings/DynamicsManager.asset
+          fullPath: /home/sergey/unity/projects/JustAnotherShooter/ProjectSettings/DynamicsManager.asset
+          projectPath: ProjectSettings/DynamicsManager.asset
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: ProjectSettings/ProjectVersion.txt
+          fullPath: /home/sergey/unity/projects/JustAnotherShooter/ProjectSettings/ProjectVersion.txt
+          projectPath: ProjectSettings/ProjectVersion.txt
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: UserSettings/Layouts/default-2021.dwlt
+          fullPath: /home/sergey/unity/projects/JustAnotherShooter/UserSettings/Layouts/default-2021.dwlt
+          projectPath: UserSettings/Layouts/default-2021.dwlt
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
       - commitID: ca6e86c425ff4d28686b5512e37e582755acd7a5
         mergeA: 
         mergeB: 
@@ -7905,32 +8703,32 @@ MonoBehaviour:
     detailsScroll: {x: 0, y: 0}
   settingsView:
     gitPathView:
-      gitPath: /usr/bin/git
-      gitLfsPath: /home/sergey/.local/share/GitHubUnity/git-lfs/git-lfs
+      gitPath: 
+      gitLfsPath: 
       errorMessage: 
       resetToBundled: 0
       resetToSystem: 0
       changingManually: 0
-    hasRemote: 1
+    hasRemote: 0
     lastCurrentRemoteChangedEvent:
-      updatedTimeString: 2021-12-20T20:28:32.727+02:00
-      cacheType: 1
-    metricsEnabled: 1
-    newRepositoryRemoteUrl: git@github.com:SSD-slav/JAS.git
-    repositoryRemoteName: origin
-    repositoryRemoteUrl: git@github.com:SSD-slav/JAS.git
+      updatedTimeString: 
+      cacheType: 0
+    metricsEnabled: 0
+    newRepositoryRemoteUrl: 
+    repositoryRemoteName: 
+    repositoryRemoteUrl: 
     scroll: {x: 0, y: 0}
     userSettingsView:
-      gitName: SSD-slav
-      gitEmail: disk.that.makes.games@gmail.com
-      newGitName: SSD-slav
-      newGitEmail: disk.that.makes.games@gmail.com
+      gitName: 
+      gitEmail: 
+      newGitName: 
+      newGitEmail: 
       needsSaving: 0
       lastCheckUserChangedEvent:
-        updatedTimeString: 2021-12-20T20:28:39.286+02:00
-        cacheType: 8
-    webTimeout: 3000
-    gitTimeout: 5000
+        updatedTimeString: 
+        cacheType: 0
+    webTimeout: 0
+    gitTimeout: 0
   locksView:
     currentRemoteHasUpdate: 0
     currentStatusEntriesHasUpdate: 0
@@ -7954,16 +8752,16 @@ MonoBehaviour:
             email: 
           lockedAtString: 
         gitFileStatus: 0
-        lockedAt: 1 Jan 0001, 02:02
+        lockedAt: 
     lastCurrentRemoteChangedEvent:
-      updatedTimeString: 2021-12-20T20:28:32.727+02:00
-      cacheType: 1
+      updatedTimeString: 
+      cacheType: 0
     lastLocksChangedEvent:
-      updatedTimeString: 0001-01-01T00:00:00.000+00:00
-      cacheType: 7
+      updatedTimeString: 
+      cacheType: 0
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2021-12-20T20:30:58.582+02:00
-      cacheType: 6
+      updatedTimeString: 
+      cacheType: 0
     lockedFiles: []
     gitStatusEntries: []
     currentUsername: 
@@ -7992,13 +8790,13 @@ MonoBehaviour:
     m_Image: {fileID: 0}
     m_Tooltip: Url of the origin remote
   lastCurrentBranchAndRemoteChangedEvent:
-    updatedTimeString: 2021-12-24T16:51:10.906+02:00
+    updatedTimeString: 2022-01-28T16:36:52.031+02:00
     cacheType: 1
   lastTrackingStatusChangedEvent:
-    updatedTimeString: 2021-12-24T16:51:11.024+02:00
+    updatedTimeString: 0001-01-01T00:00:00.000+00:00
     cacheType: 5
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 2021-12-24T16:54:45.912+02:00
+    updatedTimeString: 2022-01-28T16:57:29.302+02:00
     cacheType: 6
   pullButtonContent:
     m_Text: Pull
@@ -8018,39 +8816,11 @@ MonoBehaviour:
     m_Tooltip: 
   repositoryProgressValue: 0
   repositoryProgressMessage: 
-  appManagerProgressValue: 0.69
-  appManagerProgressMessage: Extracting zip...
+  appManagerProgressValue: 1
+  appManagerProgressMessage: Initialized
   connections: []
   primaryConnectionUsername: 
 --- !u!114 &13
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 13953, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 800, y: 250}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Package Manager
-    m_Image: {fileID: -2824328813065806953, guid: 0000000000000000d000000000000000, type: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 100
-    y: 98
-    width: 972
-    height: 527
-  m_ViewDataDictionary: {fileID: 0}
-  m_OverlayCanvas:
-    m_LastAppliedPresetName: Default
-    m_SaveData: []
---- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8070,10 +8840,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 200
-    y: 646
-    width: 872
-    height: 343
+    x: 100
+    y: 673
+    width: 1226
+    height: 316
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -8091,22 +8861,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Prefabs
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Prefabs
   m_LastFoldersGridSize: -1
   m_LastProjectPath: /home/sergey/unity/projects/JustAnotherShooter
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 08540000
-    m_LastClickedID: 21512
-    m_ExpandedIDs: 00000000e2530000e4530000e6530000e8530000ea530000ec530000ee530000f0530000f2530000f4530000f6530000f8530000fa530000fc530000fe5300000054000002540000
+    m_SelectedIDs: 52550000
+    m_LastClickedID: 21842
+    m_ExpandedIDs: 000000002a5500002c5500002e55000030550000325500003455000036550000385500003a5500003c5500003e55000040550000425500004455000046550000485500004a55000050550000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -8134,7 +8904,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000e2530000e4530000e6530000e8530000ea530000ec530000ee530000f0530000f2530000f4530000f6530000f8530000fa530000fc530000fe5300000054000002540000
+    m_ExpandedIDs: 000000002a5500002c5500002e55000030550000325500003455000036550000385500003a5500003c5500003e55000040550000425500004455000046550000485500004a550000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -8190,7 +8960,7 @@ MonoBehaviour:
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 207
---- !u!114 &15
+--- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8210,10 +8980,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1074
-    y: 98
-    width: 550
-    height: 891
+    x: 1328
+    y: 100
+    width: 390
+    height: 889
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -8231,7 +9001,7 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_PreviewWindow: {fileID: 0}
---- !u!114 &16
+--- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8251,10 +9021,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1626
-    y: 98
-    width: 293
-    height: 891
+    x: 1720
+    y: 100
+    width: 199
+    height: 889
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -8262,9 +9032,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 28fbffff
+      m_SelectedIDs: 1cf5ffff
+      m_LastClickedID: -2788
+      m_ExpandedIDs: eef9ffff42fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -8280,7 +9050,7 @@ MonoBehaviour:
         m_IsRenaming: 0
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 3}
+        m_ClientGUIView: {fileID: 0}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -8288,7 +9058,7 @@ MonoBehaviour:
       m_IsLocked: 0
     m_CurrentSortingName: TransformSorting
   m_WindowGUID: 4c969a2b90040154d917609493e03593
---- !u!114 &17
+--- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8308,10 +9078,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 200
-    y: 98
-    width: 872
-    height: 527
+    x: 363
+    y: 19
+    width: 1102
+    height: 536
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -8322,7 +9092,7 @@ MonoBehaviour:
       collapsed: 0
       displayed: 1
       snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: -101, y: -26}
+      snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 3
       id: Tool Settings
       index: 0
@@ -8343,7 +9113,7 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: 0, y: 25}
+      snapOffset: {x: 0, y: 0}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: unity-scene-view-toolbar
@@ -8365,7 +9135,7 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: 0, y: 25}
+      snapOffset: {x: 0, y: 0}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: unity-transform-toolbar
@@ -8401,7 +9171,7 @@ MonoBehaviour:
       snapOffset: {x: 0, y: 0}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
-      id: Scene View/Cloth Constraints
+      id: Scene View/Camera
       index: 1
       layout: 4
     - dockPosition: 1
@@ -8412,7 +9182,7 @@ MonoBehaviour:
       snapOffset: {x: 0, y: 0}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
-      id: Scene View/Cloth Collisions
+      id: Scene View/Cloth Constraints
       index: 2
       layout: 4
     - dockPosition: 1
@@ -8423,7 +9193,7 @@ MonoBehaviour:
       snapOffset: {x: 0, y: 0}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
-      id: Scene View/Navmesh Display
+      id: Scene View/Cloth Collisions
       index: 3
       layout: 4
     - dockPosition: 1
@@ -8434,7 +9204,7 @@ MonoBehaviour:
       snapOffset: {x: 0, y: 0}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
-      id: Scene View/Agent Display
+      id: Scene View/Navmesh Display
       index: 4
       layout: 4
     - dockPosition: 1
@@ -8445,7 +9215,7 @@ MonoBehaviour:
       snapOffset: {x: 0, y: 0}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
-      id: Scene View/Obstacle Display
+      id: Scene View/Agent Display
       index: 5
       layout: 4
     - dockPosition: 1
@@ -8456,7 +9226,7 @@ MonoBehaviour:
       snapOffset: {x: 0, y: 0}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
-      id: Scene View/Occlusion Culling
+      id: Scene View/Obstacle Display
       index: 6
       layout: 4
     - dockPosition: 1
@@ -8467,7 +9237,7 @@ MonoBehaviour:
       snapOffset: {x: 0, y: 0}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
-      id: Scene View/Physics Debugger
+      id: Scene View/Occlusion Culling
       index: 7
       layout: 4
     - dockPosition: 1
@@ -8478,7 +9248,7 @@ MonoBehaviour:
       snapOffset: {x: 0, y: 0}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
-      id: Scene View/Scene Visibility
+      id: Scene View/Physics Debugger
       index: 8
       layout: 4
     - dockPosition: 1
@@ -8489,7 +9259,7 @@ MonoBehaviour:
       snapOffset: {x: 0, y: 0}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
-      id: Scene View/Particles
+      id: Scene View/Scene Visibility
       index: 9
       layout: 4
     - dockPosition: 1
@@ -8497,10 +9267,10 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 0
-      snapOffset: {x: -213, y: -128}
+      snapOffset: {x: 0, y: 0}
       snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 3
-      id: Scene View/Camera
+      snapCorner: 0
+      id: Scene View/Particles
       index: 10
       layout: 4
   m_WindowGUID: cc27987af1a868c49b0894db9c0f5429
@@ -8508,14 +9278,14 @@ MonoBehaviour:
   m_OverrideSceneCullingMask: 6917529027641081856
   m_SceneIsLit: 1
   m_SceneLighting: 1
-  m_2DMode: 1
+  m_2DMode: 0
   m_isRotationLocked: 0
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 359.6544, y: 267.94833, z: -88.068504}
+    m_Target: {x: 0, y: 0, z: 0}
     speed: 2
-    m_Value: {x: 361.03287, y: 263.38788, z: -87.95308}
+    m_Value: {x: 0, y: 0, z: 0}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -8544,38 +9314,38 @@ MonoBehaviour:
       m_Size: {x: 0, y: 0}
     yGrid:
       m_Fade:
-        m_Target: 0
-        speed: 2
-        m_Value: 0
-      m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
-      m_Pivot: {x: 0, y: 0, z: 0}
-      m_Size: {x: 1, y: 1}
-    zGrid:
-      m_Fade:
         m_Target: 1
         speed: 2
         m_Value: 1
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
       m_Size: {x: 1, y: 1}
+    zGrid:
+      m_Fade:
+        m_Target: 0
+        speed: 2
+        m_Value: 0
+      m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
+      m_Pivot: {x: 0, y: 0, z: 0}
+      m_Size: {x: 0, y: 0}
     m_ShowGrid: 1
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0, y: 0, z: 0, w: 1}
+    m_Target: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
     speed: 2
-    m_Value: {x: 0, y: 0, z: 0, w: 1}
+    m_Value: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
   m_Size:
-    m_Target: 268.0374
+    m_Target: 10
     speed: 2
-    m_Value: 256.49515
+    m_Value: 10
   m_Ortho:
-    m_Target: 1
+    m_Target: 0
     speed: 2
-    m_Value: 1
+    m_Value: 0
   m_CameraSettings:
-    m_Speed: 0.22088997
-    m_SpeedNormalized: 0.109999985
+    m_Speed: 1
+    m_SpeedNormalized: 0.5
     m_SpeedMin: 0.001
     m_SpeedMax: 2
     m_EasingEnabled: 1
@@ -8586,14 +9356,14 @@ MonoBehaviour:
     m_FarClip: 10000
     m_DynamicClip: 1
     m_OcclusionCulling: 0
-  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+  m_LastSceneViewRotation: {x: 0, y: 0, z: 0, w: 0}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
   m_SceneVisActive: 1
   m_LastLockedObject: {fileID: 0}
   m_ViewIsLockedToObject: 0
---- !u!114 &18
+--- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8613,10 +9383,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 200
-    y: 98
-    width: 872
-    height: 527
+    x: 100
+    y: 100
+    width: 1226
+    height: 552
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -8627,7 +9397,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 872, y: 506}
+  m_TargetSize: {x: 1920, y: 1080}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -8636,16 +9406,16 @@ MonoBehaviour:
   m_VSyncEnabled: 0
   m_Gizmos: 0
   m_Stats: 0
-  m_SelectedSizes: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+  m_SelectedSizes: 03000000000000000000000000000000000000000000000000000000000000000000000000000000
   m_ZoomArea:
     m_HRangeLocked: 0
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -436
-    m_HBaseRangeMax: 436
-    m_VBaseRangeMin: -263.5
-    m_VBaseRangeMax: 263.5
+    m_HBaseRangeMin: -960
+    m_HBaseRangeMax: 960
+    m_VBaseRangeMin: -540
+    m_VBaseRangeMax: 540
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -8654,7 +9424,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 0
+    m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -8662,30 +9432,30 @@ MonoBehaviour:
     m_DrawArea:
       serializedVersion: 2
       x: 0
-      y: 0
-      width: 872
-      height: 527
-    m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 436, y: 263.5}
+      y: 21
+      width: 1226
+      height: 531
+    m_Scale: {x: 0.49166667, y: 0.49166667}
+    m_Translation: {x: 613, y: 265.5}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -436
-      y: -263.5
-      width: 872
-      height: 527
+      x: -1246.7797
+      y: -540
+      width: 2493.5593
+      height: 1080
     m_MinimalGUI: 1
-  m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 872, y: 527}
+  m_defaultScale: 0.49166667
+  m_LastWindowPixelSize: {x: 1226, y: 552}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
   m_XRRenderMode: 0
   m_RenderTexture: {fileID: 0}
---- !u!114 &19
+--- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8706,9 +9476,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 98
-    width: 199
-    height: 891
+    y: 100
+    width: 99
+    height: 889
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
